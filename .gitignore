@@ -1,0 +1,16 @@
+#ignore Java classes 
+*.class
+bin/
+
+# ignore Maven generated target folders
+target/
+ 
+# ignore eclipse files
+.classpath
+.classpath.bak
+.settings/
+.mymetadata
+
+#ignore svn
+.svn/
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <!-- 使用Struts2注解方式 -->
+	<constant name="struts.convention.default.parent.package"
+		value="struts-default" />
+	<!-- 设定为开发模式 -->
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.action.extension" value="action"></constant>
+	<constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
+	<package name="basePackage" namespace="/" extends="struts-default">
+
+	</package>
+</struts>
